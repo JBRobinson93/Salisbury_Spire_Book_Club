@@ -82,11 +82,12 @@ nav {
     font-size: 1rem;
 }
 
-/* Main */
+/* Main Content */
 main {
     background-color: yellow;
     /* Makes main element take up all additional space to force footer to bottom */
     flex: 1 0 auto;
+    margin-top: 78px;
 }
 
 /* Footer */
