@@ -157,6 +157,6 @@ main {
     /* Main Content */
     main {
         /* push main content down to match bottom of header on larger screens */
-        margin-top: 62px;
+        margin-top: 61px;
     }
 }
