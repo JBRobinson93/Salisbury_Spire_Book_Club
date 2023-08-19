@@ -84,10 +84,16 @@ nav {
 
 /* Main Content */
 main {
-    background-color: yellow;
     /* Makes main element take up all additional space to force footer to bottom */
     flex: 1 0 auto;
     margin-top: 76px;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/picture-of-salisbury-cathedral-by-Mike-Bird.jpg) no-repeat center center/cover;
 }
 
 /* Footer */
@@ -157,6 +163,6 @@ main {
     /* Main Content */
     main {
         /* push main content down to match bottom of header on larger screens */
-        margin-top: 61px;
+        margin-top: 62px;
     }
 }
