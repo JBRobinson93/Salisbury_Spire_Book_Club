@@ -137,4 +137,16 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    #logo {
+        font-size: 200%;
+        line-height: 60px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Content */
+    main {
+        /* push main content down to match bottom of header on larger screens */
+        margin-top: 62px;
+    }
 }
