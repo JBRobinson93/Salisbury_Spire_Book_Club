@@ -122,7 +122,7 @@ main {
     list-style-type: none;
 }
 
-#contact-links {
+#contact-links i {
     font-size: 160%;
     padding: 5%;
     color: #222222;
