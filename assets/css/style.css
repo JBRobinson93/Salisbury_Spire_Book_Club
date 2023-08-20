@@ -25,6 +25,10 @@ h1, h2, h3 {
     color: #222222;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -152,6 +156,24 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Book Of The Month Banner */
+#books {
+    background: url(../images/flower-image.jpg) no-repeat center/cover;
+    /* Fixes Responsivity without a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#books div {
+    color: #222222;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
 }
 
 /* Footer */
