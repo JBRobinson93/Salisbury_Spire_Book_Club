@@ -93,7 +93,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/picture-of-salisbury-cathedral-by-Mike-Bird.jpg) no-repeat center center/cover;
+    background: url(../images/salisbury-cathedral-by-Mike-Bird.jpg) no-repeat center center/cover;
     position: relative;
 }
 
@@ -111,6 +111,47 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #222222;
+}
+
+/* Who Are We Section */
+#who-are-we {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    flex-direction: row;
+}
+
+#who-are-we  h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#who-are-we hr {
+    border-top: 1px solid #222222;
+}
+
+#about-us {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+#about-us-bg {
+    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    max-width: 400px;
+    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25%;
+}
+
+#about-us-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
