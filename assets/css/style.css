@@ -178,7 +178,7 @@ main {
 #spire-cafe {
     width: 100%;
     line-height: 20px;
-    padding: 0 20px;
+    padding: 10px 20px;
     font-size: 22px;
     text-align: center;
     background-color: rgb(253, 205, 213);
@@ -223,13 +223,11 @@ main {
     justify-content: center;
 }
 
-
-
-/* Newslettter Form */
+/* Newsletter Form */
 #newsletter {
     width: 100%;
     line-height: 20px;
-    padding: 0 20px;
+    padding: 10px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 22px;
@@ -254,6 +252,40 @@ main {
     padding: 0 20px;
     margin-bottom: 20px;
     font-size: 22px;
+}
+
+/* Address and Maps Iframe */
+#cafe-location {
+    width: 100%;
+    line-height: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(253, 205, 213);
+}
+
+#cafe-location h2 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cafe-location hr {
+    border-top: 1px solid #222222;
+}
+
+#cafe-address {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#cafe-image {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
