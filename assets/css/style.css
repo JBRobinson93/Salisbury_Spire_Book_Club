@@ -121,12 +121,12 @@ main {
 #who-are-we {
     width: 90%;
     margin: 20px auto;
-    text-align: center;
 }
 
 #who-are-we  h2 {
-    font-size: 280%;
+    font-size: 120%;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #who-are-we hr {
@@ -137,16 +137,17 @@ main {
     line-height: 20px;
     padding: 0 20px;
     margin-bottom: 20px;
+    font-size: 22px;
 }
 
 #about-us-bg {
-    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center/cover;
+    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    border-radius: 25%;
     max-width: 400px;
     max-height: 400px;
-    border-radius: 25%;
 }
 
 #about-us-image {
@@ -171,6 +172,54 @@ main {
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
+}
+
+/* Spire Cafe Opening times */
+#spire-cafe {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: rgb(253, 205, 213);
+}
+
+#spire-cafe li {
+    list-style: none;
+    max-width: 100%;
+    margin: 20px;
+}
+
+#spire-cafe h2 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#spire-cafe hr {
+    border-top: 1px solid #222222;
+}
+
+#spire-cafe-times {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#cafe-bg {
+    background: url(../images/cafe-and-books.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 25%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#cafe-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -230,6 +279,88 @@ main {
         right: 50px;
     }
 
+    /* Who We Are Section */
+    #about-us {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about-us > div, #about-us-image > div {
+        width: 100%;
+    }
+
+    #about-us-image > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #about-us > h2 {
+        font-size: 200%;
+    }
+
+    /* Spire Cafe Opening Times */
+     #spire-cafe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #spire-cafe>div,
+    #spire-cafe-image>div {
+        width: 100%;
+    }
+    
+    #spire-cafe-image>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+    
+    #spire-cafe>h2 {
+        font-size: 200%;
+    }
+
+    /* Who We Are Section */
+    #about-us {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about-us > div, #about-us-image > div {
+        width: 100%;
+    }
+
+    #about-us-image > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #about-us > h2 {
+        font-size: 200%;
+    }
+
+    /* Spire Cafe Opening Times */
+     #spire-cafe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #spire-cafe>div,
+    #spire-cafe-image>div {
+        width: 100%;
+    }
+    
+    #spire-cafe-image>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+    
+    #spire-cafe>h2 {
+        font-size: 200%;
+    }
+
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
@@ -248,5 +379,43 @@ main {
     main {
         /* push main content down to match bottom of header on larger screens */
         margin-top: 62px;
+    }
+}
+
+/* Media query: Much Larger Screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Who Are We Section */
+    #who-are-we {
+        display: flex;
+        flex-direction: row;
+    }
+    #who-are-we > div {
+        flex: 1;
+    }
+
+    #about-us-image {
+        order: 1;
+    }
+    
+    #about-us {
+        order: 0;
+    }
+
+    /* Spire Cafe Opening Times */
+    #spire-cafe {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #spire-cafe>ul {
+        flex: 1;
+    }
+    
+    #spire-cafe-image {
+        order: 1;
+    }
+    
+    #spire-cafe-times {
+        order: 0;
     }
 }
