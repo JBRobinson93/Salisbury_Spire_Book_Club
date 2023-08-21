@@ -176,9 +176,10 @@ main {
 
 /* Spire Cafe Opening times */
 #spire-cafe {
-    width: 90%;
-    margin: auto;
-    padding: auto;
+    width: 100%;
+    line-height: 20px;
+    padding: 0 20px;
+    font-size: 22px;
     text-align: center;
     background-color: rgb(253, 205, 213);
 }
@@ -220,6 +221,39 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+/* Newslettter Form */
+#newsletter {
+    width: 100%;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(178, 207, 250, 0.6);
+    border: 2px dashed #222222;
+}
+
+#newsletter h2 {
+    font-size: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+#newsletter hr {
+    border-top: 1px solid #222222;
+}
+
+#newsletter-form {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
 }
 
 /* Footer */
@@ -361,6 +395,27 @@ main {
         font-size: 200%;
     }
 
+    /* Newsletter Form */
+    #newsletter {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #newsletter-form>input,
+    #newsletter-form>label {
+        width: 100%;
+    }
+    
+    #spire-cafe-image>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+    
+    #newsletter>h2 {
+        font-size: 200%;
+    }
+
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
@@ -416,6 +471,20 @@ main {
     }
     
     #spire-cafe-times {
+        order: 0;
+    }
+
+    /* Newletter Form */
+    #newsletter {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #newsletter>form {
+        flex: 1;
+    }
+    
+    #newsletter-form {
         order: 0;
     }
 }
