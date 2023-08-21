@@ -97,13 +97,13 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/salisbury-cathedral-by-Mike-Bird.jpg) no-repeat center center/cover;
+    background: url(../images/cathedral-sunrise.jpeg) no-repeat center center/cover;
     position: relative;
 }
 
 #cover-text {
     /* Final rgba value set the opacity so it is semi-transparent */
-    background-color: rgba(56,247,220, .7);
+    background-color: rgba(252, 158, 220, 0.644);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -122,7 +122,6 @@ main {
     width: 90%;
     margin: 20px auto;
     text-align: center;
-    flex-direction: column;
 }
 
 #who-are-we  h2 {
@@ -141,14 +140,12 @@ main {
 }
 
 #about-us-bg {
-    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center / cover;
+    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     max-width: 400px;
     max-height: 400px;
-    max-width: 300px;
-    max-height: 300px;
     border-radius: 25%;
 }
 
