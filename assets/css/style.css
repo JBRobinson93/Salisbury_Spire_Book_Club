@@ -290,112 +290,46 @@ main {
 
 
 /* Review Section */
-#review-1 {
-    border: 2px solid red;
+.review-1 {
     width: 90%;
     margin: 20px auto;
 }
 
-#review-1 h2 {
+.review-1 h2 {
     font-size: 120%;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#review-1 hr {
+.review-1 hr {
     border-top: 1px solid #222222;
 }
 
-#review-1-bg {
-    background: url(../images/review-1-woman.jpg) no-repeat center center/cover;
-    height: 40vw;
-    width: 40vw;
-    border-radius: 100%;
-}
-
-#review-1-content {
-    width: 50%;
-    padding: 20px;
-    border: 2px solid black;
-}
-
-#about-us {
+.review-1-content {
     line-height: 20px;
     padding: 0 20px;
     margin-bottom: 20px;
     font-size: 22px;
 }
 
-#about-us-bg {
-    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 25%;
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#about-us-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#review-2 {
-    padding: 20px;
-    border: 2px solid red;
-}
-
-#review-2-bg {
-    background: url(../images/review-1-woman.jpg) no-repeat center center/cover;
-    height: 40vw;
-    width: 40vw;
-    margin-bottom: 20px;
+.review-1-content {
+    background: url(../images/review-1-woman.jpg) no-repeat top center / cover;
+    height: 30vw;
+    width: 30vw;
+    margin: 20px;
     border-radius: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.review-1-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-#review-2-content {
-    width: 50%;
-    padding: 20px;
-    border: 2px solid black;
-}
 
-#review-3 {
-    padding: 20px;
-    border: 2px solid red;
-}
-
-#review-3-bg {
-    background: url(../images/review-1-woman.jpg) no-repeat center center/cover;
-    height: 40vw;
-    width: 40vw;
-    margin-bottom: 20px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#review-3-content {
-    width: 50%;
-    padding: 20px;
-    border: 2px solid black;
-}
 
 /* Footer */
 #contact-links {
