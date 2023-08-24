@@ -174,8 +174,8 @@ main {
 }
 
 #books div {
-    color: #222222;
-    background-color: rgb(255, 255, 255, 0.6);
+    color: #221313;
+    background-color: rgb(255, 255, 255, 0.3);
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
@@ -310,35 +310,37 @@ main {
     text-align: center;
 }
 
-.review-1 hr {
-    border-top: 1px solid #222222;
+.review-1-content {
+    margin-top: 15%;
 }
 
-.review-1-content {
+.review-1-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.review-1-text {
     line-height: 20px;
     padding: 0 20px;
     margin-bottom: 20px;
     font-size: 22px;
 }
 
-.review-1-content {
+.review-1-bg {
     background: url(../images/review-1-woman.jpg) no-repeat top center / cover;
-    height: 30vw;
-    width: 30vw;
-    margin: 20px;
+    height: 60vw;
+    width: 60vw;
+    margin-bottom: 20px;
     border-radius: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
-.review-1-content {
+.review-1-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
-
-
 
 /* Footer */
 #contact-links {
@@ -438,47 +440,6 @@ main {
         font-size: 200%;
     }
 
-    /* Who We Are Section */
-    #about-us {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #about-us > div, #about-us-image > div {
-        width: 100%;
-    }
-
-    #about-us-image > div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
-    #about-us > h2 {
-        font-size: 200%;
-    }
-
-    /* Spire Cafe Opening Times */
-     #spire-cafe {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    #spire-cafe>div,
-    #spire-cafe-image>div {
-        width: 100%;
-    }
-    
-    #spire-cafe-image>div {
-        text-align: end;
-        align-self: flex-end;
-    }
-    
-    #spire-cafe>h2 {
-        font-size: 200%;
-    }
-
     /* Newsletter Form */
     #newsletter {
         display: flex;
@@ -497,6 +458,26 @@ main {
     }
     
     #newsletter>h2 {
+        font-size: 200%;
+    }
+
+    /* Review Section */
+    .review-1-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .review-1-image > div, .review-1-text > div {
+        width: 100%;
+    }
+
+    .review-1-image > div {
+        text-align: start;
+        align-self: flex-start;
+    }
+
+    .review-1-text > h2 {
         font-size: 200%;
     }
 
@@ -570,5 +551,23 @@ main {
     
     #newsletter-form {
         order: 0;
+    }
+
+    /* Review Section */
+    .review-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .review-1 > div {
+        flex: 1;
+    }
+
+    .review-1-image {
+        order: 0;
+    }
+
+    .review-1-text {
+        order: 1;
     }
 }
