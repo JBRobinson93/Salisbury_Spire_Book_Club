@@ -299,6 +299,55 @@ main {
 
 
 /* Review Section */
+.book-of-the-month {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 214, 96, 0.5);
+}
+
+.book-of-the-month h2 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book-of-the-month h3 {
+    font-size: 96%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book-of-the-month-content {
+    margin-top: 15%;
+}
+
+.book-of-the-month-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.book-of-the-month-text {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.book-of-the-month-bg {
+    background: url(../images/the-constant-rabbit-book-cover.jpg) no-repeat top center / cover;
+    height: 60vh;
+    width: 40vh;
+    max-height: 400px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.book-of-the-month-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .review-1 {
     width: 90%;
     margin: 20px auto;
@@ -551,6 +600,30 @@ main {
     }
 
     /* Review Section */
+    .book-of-the-month-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .book-of-the-month-image>div,
+    .book-of-the-month-text>div {
+        width: 100%;
+    }
+
+    .book-of-the-month-image>div {
+        text-align: start;
+        align-self: flex-start;
+    }
+
+    .book-of-the-month-text>h2 {
+        font-size: 200%;
+    }
+
+    .book-of-the-month-text>h2 {
+        font-size: 160%;
+    }
+
     .review-1-text {
         display: flex;
         flex-direction: column;
@@ -683,6 +756,23 @@ main {
     }
 
     /* Review Section */
+    .book-of-the-month {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .book-of-the-month>div {
+        flex: 1;
+    }
+    
+    .book-of-the-month-image {
+        order: 0;
+    }
+    
+    .book-of-the-month-text {
+        order: 1;
+    }
+    
     .review-1 {
         display: flex;
         flex-direction: row;
@@ -693,11 +783,11 @@ main {
     }
 
     .review-1-image {
-        order: 0;
+        order: 1;
     }
 
     .review-1-text {
-        order: 1;
+        order: 0;
     }
 
     .review-2 {
@@ -710,11 +800,11 @@ main {
     }
     
     .review-2-image {
-        order: 1;
+        order: 0;
     }
     
     .review-2-text {
-        order: 0;
+        order: 1;
     }
 
     .review-3 {
@@ -727,10 +817,10 @@ main {
     }
     
     .review-3-image {
-        order: 0;
+        order: 1;
     }
     
     .review-3-text {
-        order: 1;
+        order: 0;
     }
 }
