@@ -306,15 +306,17 @@ main {
 }
 
 .book-of-the-month h2 {
-    font-size: 120%;
+    font-size: 100%;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .book-of-the-month h3 {
-    font-size: 96%;
+    font-size: 80%;
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .book-of-the-month-content {
@@ -322,7 +324,8 @@ main {
 }
 
 .book-of-the-month-text p {
-    margin-top: 20px;
+    font-size: 60%;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -356,7 +359,6 @@ main {
 
 .review-1 h2 {
     font-size: 120%;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -366,6 +368,7 @@ main {
 
 .review-1-text p {
     margin-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -380,6 +383,8 @@ main {
     background: url(../images/review-1-woman.jpg) no-repeat top center / cover;
     height: 60vw;
     width: 60vw;
+    margin-top: 20px;
+    
     margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
@@ -424,6 +429,7 @@ main {
     background: url(../images/two-smiling-friends.jpg) no-repeat top center / cover;
     height: 60vw;
     width: 60vw;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
@@ -468,6 +474,7 @@ main {
     background: url(../images/older-lady-enjoying-sun.jpg) no-repeat top center / cover;
     height: 60vw;
     width: 60vw;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
@@ -616,12 +623,23 @@ main {
         align-self: flex-start;
     }
 
-    .book-of-the-month-text>h2 {
-        font-size: 200%;
+    .book-of-the-month-text h2 {
+        font-size: 170%;
+        text-align: right;
     }
 
-    .book-of-the-month-text>h2 {
-        font-size: 160%;
+    .book-of-the-month-text h3 {
+        font-size: 150%;
+        text-align: right;
+    }
+
+    .book-of-the-month p {
+        font-size: 70%;
+        text-align: right;
+    }
+
+    .review-1 {
+        width: 80%;
     }
 
     .review-1-text {
@@ -643,6 +661,10 @@ main {
         font-size: 200%;
     }
 
+    .review-2 {
+        width: 80%;
+    }
+
     .review-2-text {
         display: flex;
         flex-direction: column;
@@ -661,6 +683,10 @@ main {
     
     .review-2-text>h2 {
         font-size: 200%;
+    }
+
+    .review-3 {
+        width: 80%;
     }
 
     .review-3-text {
