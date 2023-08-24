@@ -5,3 +5,9 @@ Favicon
 Photo by Ylanite Koppens: <https://www.pexels.com/photo/floral-ceramic-cup-and-saucer-above-open-book-1693626/>
 
 Photo by Skitterphoto: <https://www.pexels.com/photo/ancient-antique-architectural-design-architecture-442420/>
+
+
+
+Photo by Israel Torres: <https://www.pexels.com/photo/portrait-of-two-men-in-eyeglasses-posing-on-a-street-17898854/>
+
+Photo by Susanna Marsiglia: <https://www.pexels.com/photo/smiling-elderly-woman-in-dress-17849329/>

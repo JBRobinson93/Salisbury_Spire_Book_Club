@@ -302,6 +302,7 @@ main {
 .review-1 {
     width: 90%;
     margin: 20px auto;
+    background-color: rgba(255, 118, 190, 0.5);
 }
 
 .review-1 h2 {
@@ -332,11 +333,99 @@ main {
     width: 60vw;
     margin-bottom: 20px;
     border-radius: 100%;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .review-1-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-2 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 141, 146, 0.5);
+}
+
+.review-2 h2 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.review-2-content {
+    margin-top: 15%;
+}
+
+.review-2-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.review-2-text {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.review-2-bg {
+    background: url(../images/two-smiling-friends.jpg) no-repeat top center / cover;
+    height: 60vw;
+    width: 60vw;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.review-2-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-3 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 177, 111, 0.5);
+}
+
+.review-3 h2 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.review-3-content {
+    margin-top: 15%;
+}
+
+.review-3-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.review-3-text {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.review-3-bg {
+    background: url(../images/older-lady-enjoying-sun.jpg) no-repeat top center / cover;
+    height: 60vw;
+    width: 60vw;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.review-3-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -481,6 +570,46 @@ main {
         font-size: 200%;
     }
 
+    .review-2-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .review-2-image>div,
+    .review-2-text>div {
+        width: 100%;
+    }
+    
+    .review-2-image>div {
+        text-align: start;
+        align-self: flex-start;
+    }
+    
+    .review-2-text>h2 {
+        font-size: 200%;
+    }
+
+    .review-3-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .review-3-image>div,
+    .review-3-text>div {
+        width: 100%;
+    }
+    
+    .review-3-image>div {
+        text-align: start;
+        align-self: flex-start;
+    }
+    
+    .review-3-text>h2 {
+        font-size: 200%;
+    }
+
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
@@ -568,6 +697,40 @@ main {
     }
 
     .review-1-text {
+        order: 1;
+    }
+
+    .review-2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .review-2>div {
+        flex: 1;
+    }
+    
+    .review-2-image {
+        order: 1;
+    }
+    
+    .review-2-text {
+        order: 0;
+    }
+
+    .review-3 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .review-3>div {
+        flex: 1;
+    }
+    
+    .review-3-image {
+        order: 0;
+    }
+    
+    .review-3-text {
         order: 1;
     }
 }
