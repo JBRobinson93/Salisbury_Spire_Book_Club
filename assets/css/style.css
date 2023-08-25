@@ -622,6 +622,11 @@ main {
         font-size: 200%;
     }
 
+    .salisbury-history-video-file {
+        width: 500px;
+        height: 300px;
+    }
+
     /* Spire Cafe Opening Times */
      #spire-cafe {
         display: flex;
