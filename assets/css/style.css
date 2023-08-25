@@ -165,6 +165,43 @@ main {
     justify-content: center;
 }
 
+/* Salisbury History */
+.salisbury-history {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.salisbury-history h2 {
+    font-size: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.salisbury-history-text {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.salisbury-history-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.salisbury-history-video-file {
+    width: 80vw;
+    height: 30vh;
+    max-height: 550px;
+    max-width: 700px;
+}
+
+.salisbury-history-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Book Of The Month Banner */
 #books {
     background: url(../images/flower-image.jpg) no-repeat center/cover;
@@ -564,6 +601,27 @@ main {
         font-size: 200%;
     }
 
+    /* Salisbury History */
+    .salisbury-history {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .salisbury-history>div,
+    .salisbury-history>div {
+        width: 100%;
+    }
+    
+    .salisbury-history-video>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+    
+    .salisbury-history>h2 {
+        font-size: 200%;
+    }
+
     /* Spire Cafe Opening Times */
      #spire-cafe {
         display: flex;
@@ -747,6 +805,24 @@ main {
     
     #about-us {
         order: 0;
+    }
+
+    /* Who Are We Section */
+    .salisbury-history {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .salisbury-history>div {
+        flex: 1;
+    }
+    
+    .salisbury-history-video {
+        order: 0;
+    }
+    
+    .salisbury-history-text {
+        order: 1;
     }
 
     /* Spire Cafe Opening Times */
