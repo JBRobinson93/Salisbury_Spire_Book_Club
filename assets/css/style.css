@@ -539,6 +539,17 @@ main {
     color: #222222;
 }
 
+/* Media Query: mobiles and larger (357px and up) */
+@media screen and (min-width: 357px) {
+    /* Main Content */
+    main {
+    /* push main content down to match bottom of header */
+        margin-top: 20px;
+    }
+}
+
+
+
 /* Media Query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -572,7 +583,7 @@ main {
     /* Main Content */
     main {
         /* push main content down to match bottom of header */
-        margin-top: 122px;
+        margin-top: 50px;
     }
     
     /* Hero */
