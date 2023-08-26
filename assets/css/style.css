@@ -222,7 +222,7 @@ main {
 
 /* Spire Cafe Opening times */
 #spire-cafe {
-    width: 100%;
+    width: 80%;
     line-height: 20px;
     padding: 10px 20px;
     font-size: 22px;
@@ -271,7 +271,7 @@ main {
 
 /* Newsletter Form */
 #newsletter {
-    width: 100%;
+    width: 60%;
     line-height: 20px;
     padding: 10px 20px;
     margin-top: 20px;
@@ -302,7 +302,7 @@ main {
 
 /* Address and Maps Iframe */
 #cafe-location {
-    width: 100%;
+    width: 80%;
     line-height: 20px;
     padding: 10px 20px;
     font-size: 22px;
@@ -547,8 +547,6 @@ main {
         margin-top: 20px;
     }
 }
-
-
 
 /* Media Query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
