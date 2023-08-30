@@ -143,7 +143,7 @@ main {
 }
 
 #about-us p {
-    margin-top: 20px;
+    margin-top: 18px;
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ main {
     line-height: 20px;
     padding: 0 20px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .salisbury-history-text p {
@@ -612,11 +612,10 @@ main {
     }
 
     #about-us h2 {
-        font-size: 240%;
+        font-size: 200%;
     }
 
     #about-us p {
-        font-size: 30px;
         line-height: 30px;
     }
 
