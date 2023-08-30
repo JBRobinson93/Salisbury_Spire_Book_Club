@@ -173,8 +173,8 @@ main {
 
 /* Salisbury History */
 .salisbury-history {
-    width: 90%;
-    margin: 20px auto;
+    margin: 30px;
+    text-align: center;
 }
 
 .salisbury-history h2 {
@@ -296,7 +296,12 @@ main {
     font-size: 100%;
     margin-bottom: 10px;
     text-align: center;
-    text-decoration: dashed;
+}
+
+#newsletter h3 {
+    font-size: 70%;
+    margin: 20px 20px;
+    text-align: center;
 }
 
 #newsletter hr {
@@ -308,7 +313,7 @@ main {
     padding: 0 10px;
     margin-bottom: 20px;
     font-size: 20px;    
-    text-align: left;
+    text-align: center;
 }
 
 /* Address and Maps Iframe */
@@ -633,7 +638,6 @@ main {
     .salisbury-history {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
     
     .salisbury-history>div,
@@ -714,20 +718,28 @@ main {
     #spire-cafe-times {
         order: 0;
     }
-    
-    /* Newletter Form */
+
+    /* Newsletter Responsive styles */
     #newsletter {
         display: flex;
         flex-direction: row;
     }
     
-    #newsletter>form {
+    #newsletter>form, #newsletter>h3 {
         flex: 1;
     }
     
     #newsletter-form {
         order: 0;
+        width: 50%;
+        margin-top: 20px;
     }
+
+    #newsletter-info {
+        order: 1;
+    }
+
+
 
     /* Review Section */
     .book-of-the-month-text {
