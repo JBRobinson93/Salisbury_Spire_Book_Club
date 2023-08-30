@@ -657,13 +657,9 @@ main {
 
     /* Spire Cafe Opening Times */
     #contact-us {
-        margin: 10px;
+        margin: -17px 20px 20px 20px;
         display: flex;
         flex-direction: column;
-    }
-
-     #spire-cafe {
-        
     }
     
     #spire-cafe>div,
@@ -698,6 +694,39 @@ main {
     
     #newsletter>h2 {
         font-size: 200%;
+    }
+
+    /* Spire Cafe Opening Times Responsive styles */
+
+    #spire-cafe {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #spire-cafe>ul {
+        flex: 1;
+    }
+    
+    #spire-cafe-image {
+        order: 1;
+    }
+    
+    #spire-cafe-times {
+        order: 0;
+    }
+    
+    /* Newletter Form */
+    #newsletter {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #newsletter>form {
+        flex: 1;
+    }
+    
+    #newsletter-form {
+        order: 0;
     }
 
     /* Review Section */
@@ -821,6 +850,41 @@ main {
     main {
         /* push main content down to match bottom of header on larger screens */
         margin-top: 62px;
+    }
+
+    /* Spire Cafe Opening Times */
+    #spire-cafe {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #spire-cafe>ul {
+        flex: 1;
+    }
+    
+        #spire-cafe-image {
+            order: 1;
+        }
+    
+        #spire-cafe-times {
+            order: 0;
+        }
+    
+        /* Newletter Form */
+        #newsletter {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        #newsletter>form {
+            flex: 1;
+        }
+    
+        #newsletter-form {
+            order: 0;
+        }
+    #contact-us {
+        margin-top: -30px;
     }
 }
 
