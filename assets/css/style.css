@@ -1,5 +1,5 @@
 /* Google Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 /* Wildcard selector to override default styles */
 * {
@@ -15,11 +15,11 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #222222;
-    font-family: "Amaranth", serif;
+    font-family: "Calistoga", serif;
 }
 
 h1, h2, h3 {
-    font-family: "Amaranth", serif;
+    font-family: "Calistoga", serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #222222;
@@ -335,6 +335,7 @@ main {
 
 #cafe-location hr {
     border-top: 1px solid #222222;
+    margin-bottom: 20px;
 }
 
 #cafe-address {
@@ -350,34 +351,38 @@ main {
     justify-content: center;
 }
 
-
-/* Review Section */
+/* Book of the Month Section */
 .book-of-the-month {
-    width: 90%;
-    margin: 20px auto;
+    margin: 30px 20px 20px 20px;
     background-color: rgba(255, 214, 96, 0.5);
 }
 
 .book-of-the-month h1 {
     font-size: 200%;
     text-align: center;
+    padding: 10px 0; 
 }
 
 .book-of-the-month hr {
     border-top: 1px solid #222222;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .book-of-the-month h2 {
     font-size: 100%;
-    margin-bottom: 20px;
+    margin: 10px 0 50px 0;
     text-align: center;
 }
 
 .book-of-the-month h3 {
+    font-size: 100%;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.book-of-the-month h4 {
     font-size: 80%;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -423,6 +428,7 @@ main {
 .review-1 h2 {
     font-size: 120%;
     text-align: center;
+    line-height: 25px;
 }
 
 .review-1-content {
@@ -469,6 +475,7 @@ main {
     font-size: 120%;
     margin-bottom: 20px;
     text-align: center;
+    line-height: 25px;
 }
 
 .review-2-content {
@@ -478,7 +485,7 @@ main {
 
 .review-2-text p {
     margin-top: 20px;
-    padding: 0 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -516,6 +523,7 @@ main {
     font-size: 120%;
     margin-bottom: 20px;
     text-align: center;
+    line-height: 25px;
 }
 
 .review-3-content {
@@ -525,7 +533,7 @@ main {
 
 .review-3-text p {
     margin-top: 20px;
-    padding: 0 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -578,6 +586,10 @@ main {
 
     #spire-cafe {
         margin-top: 35px;
+    }
+
+    .book-of-the-month {
+        margin-top: 40px;
     }
 }
 
@@ -752,39 +764,24 @@ main {
         order: 1;
     }
 
-
-
-    /* Review Section */
-    .book-of-the-month-text {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    /* Book Review Section */
+    #book-of-the-month-image  {
+        margin-bottom: 60;
     }
 
-    .book-of-the-month-image>div,
-    .book-of-the-month-text>div {
-        width: 100%;
-    }
 
-    .book-of-the-month-image>div {
-        text-align: start;
-        align-self: flex-start;
-    }
 
-    .book-of-the-month-text h2 {
-        font-size: 170%;
-        text-align: right;
-    }
 
-    .book-of-the-month-text h3 {
-        font-size: 150%;
-        text-align: right;
-    }
 
-    .book-of-the-month p {
-        font-size: 70%;
-        text-align: right;
-    }
+
+
+
+
+
+
+
+
+
 
     .review-1 {
         width: 80%;
@@ -887,29 +884,35 @@ main {
         flex: 1;
     }
     
-        #spire-cafe-image {
-            order: 1;
-        }
+    #spire-cafe-image {
+        order: 1;
+    }
     
-        #spire-cafe-times {
-            order: 0;
-        }
+    #spire-cafe-times {
+        order: 0;
+    }
     
-        /* Newletter Form */
-        #newsletter {
-            display: flex;
-            flex-direction: row;
-        }
+    /* Newletter Form */
+    #newsletter {
+        display: flex;
+        flex-direction: row;
+    }
     
-        #newsletter>form {
-            flex: 1;
-        }
+    #newsletter>form {
+        flex: 1;
+    }
     
-        #newsletter-form {
-            order: 0;
-        }
+    #newsletter-form {
+        order: 0;
+    }
+
     #contact-us {
         margin-top: -30px;
+    }
+
+    /* Book club Section */
+    .book-of-the-month {
+        margin-top: 20px;
     }
 }
 
