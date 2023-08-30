@@ -611,8 +611,13 @@ main {
         align-self: flex-end;
     }
 
-    #about-us > h2 {
-        font-size: 200%;
+    #about-us h2 {
+        font-size: 240%;
+    }
+
+    #about-us p {
+        font-size: 30px;
+        line-height: 30px;
     }
 
     /* Salisbury History */
