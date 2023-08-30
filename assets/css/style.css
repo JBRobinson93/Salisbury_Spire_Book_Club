@@ -1,5 +1,5 @@
 /* Google Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Wildcard selector to override default styles */
 * {
@@ -15,11 +15,11 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #222222;
-    font-family: "Special Elite", serif;
+    font-family: "Amaranth", serif;
 }
 
 h1, h2, h3 {
-    font-family: "Special Elite", serif;
+    font-family: "Amaranth", serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #222222;
