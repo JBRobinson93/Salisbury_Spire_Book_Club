@@ -116,6 +116,7 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+    text-align: center;
 }
 
 #cover-text > h2, #cover-text > h3 {
@@ -225,9 +226,14 @@ main {
     border: 2px solid white;
 }
 
+#books  h3, #books  p {
+    text-shadow: 0 0 10px #ff9;
+}
+
 /* Spire Cafe Opening times */
 #spire-cafe {
     width: 80%;
+    margin-top: 10px;
     line-height: 20px;
     padding: 10px 20px;
     font-size: 22px;
@@ -239,6 +245,7 @@ main {
     list-style: none;
     max-width: 100%;
     margin: 20px;
+    text-align: center;
 }
 
 #spire-cafe h2 {
