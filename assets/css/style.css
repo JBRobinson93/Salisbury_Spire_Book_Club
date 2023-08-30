@@ -232,8 +232,7 @@ main {
 
 /* Spire Cafe Opening times */
 #spire-cafe {
-    width: 80%;
-    margin-top: 10px;
+    margin: 20px;
     line-height: 20px;
     padding: 10px 20px;
     font-size: 22px;
@@ -267,8 +266,8 @@ main {
 
 #cafe-bg {
     background: url(../images/cafe-and-books.jpg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
+    height: 70vw;
+    width: 70vw;
     margin-bottom: 20px;
     border-radius: 25%;
     max-width: 400px;
@@ -283,20 +282,19 @@ main {
 
 /* Newsletter Form */
 #newsletter {
-    width: 60%;
+    margin: 20px;
     line-height: 20px;
     padding: 10px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 22px;
-    text-align: center;
     background-color: rgb(178, 207, 250, 0.6);
     border: 2px dashed #222222;
 }
 
 #newsletter h2 {
     font-size: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     text-decoration: dashed;
 }
@@ -307,14 +305,15 @@ main {
 
 #newsletter-form {
     line-height: 20px;
-    padding: 0 20px;
+    padding: 0 10px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 20px;    
+    text-align: left;
 }
 
 /* Address and Maps Iframe */
 #cafe-location {
-    width: 80%;
+    margin: 20px;
     line-height: 20px;
     padding: 10px 20px;
     font-size: 22px;
@@ -558,6 +557,10 @@ main {
     /* push main content down to match bottom of header */
         margin-top: 20px;
     }
+
+    #spire-cafe {
+        margin-top: 35px;
+    }
 }
 
 /* Media Query: tablets and larger (768px and up) */
@@ -653,10 +656,14 @@ main {
     }
 
     /* Spire Cafe Opening Times */
-     #spire-cafe {
+    #contact-us {
+        margin: 10px;
         display: flex;
         flex-direction: column;
-        width: 100%;
+    }
+
+     #spire-cafe {
+        
     }
     
     #spire-cafe>div,
@@ -669,7 +676,7 @@ main {
         align-self: flex-end;
     }
     
-    #spire-cafe>h2 {
+    #spire-cafe > h2 {
         font-size: 200%;
     }
 
@@ -677,7 +684,6 @@ main {
     #newsletter {
         display: flex;
         flex-direction: row;
-        width: 100%;
     }
     
     #newsletter-form>input,
