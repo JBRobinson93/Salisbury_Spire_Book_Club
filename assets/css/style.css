@@ -358,6 +358,16 @@ main {
     background-color: rgba(255, 214, 96, 0.5);
 }
 
+.book-of-the-month h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.book-of-the-month hr {
+    border-top: 1px solid #222222;
+    margin: 0px 20px;
+}
+
 .book-of-the-month h2 {
     font-size: 100%;
     margin-bottom: 20px;
@@ -366,10 +376,9 @@ main {
 
 .book-of-the-month h3 {
     font-size: 80%;
-    margin-bottom: 20px;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .book-of-the-month-content {
@@ -379,6 +388,7 @@ main {
 .book-of-the-month-text p {
     font-size: 60%;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -391,11 +401,11 @@ main {
 
 .book-of-the-month-bg {
     background: url(../images/the-constant-rabbit-book-cover.jpg) no-repeat top center / cover;
-    height: 60vh;
+    height: 45vh;
     width: 40vh;
     max-height: 400px;
     max-width: 300px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .book-of-the-month-image {
@@ -437,7 +447,6 @@ main {
     height: 60vw;
     width: 60vw;
     margin-top: 20px;
-    
     margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
@@ -464,10 +473,12 @@ main {
 
 .review-2-content {
     margin-top: 15%;
+    margin-bottom: 20px;
 }
 
 .review-2-text p {
     margin-top: 20px;
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -509,10 +520,12 @@ main {
 
 .review-3-content {
     margin-top: 15%;
+    margin-bottom: 20px;
 }
 
 .review-3-text p {
     margin-top: 20px;
+    padding: 0 20px;
     text-align: center;
 }
 
