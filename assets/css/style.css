@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -108,7 +108,7 @@ main {
 
 #cover-text {
     /* Final rgba value set the opacity so it is semi-transparent */
-    background-color: rgba(252, 158, 220, 0.644);
+    background-color: rgba(255, 228, 245, .5);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -237,7 +237,7 @@ main {
     padding: 10px 20px;
     font-size: 22px;
     text-align: center;
-    background-color: rgb(253, 205, 213);
+    background-color: rgba(255, 173, 195, .7);
 }
 
 #spire-cafe li {
@@ -289,7 +289,7 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 22px;
-    background-color: rgb(178, 207, 250, 0.6);
+    background-color: rgba(255, 188, 154, .6);
     border: 2px dashed #222222;
 }
 
@@ -325,7 +325,7 @@ main {
     padding: 10px 20px;
     font-size: 22px;
     text-align: center;
-    background-color: rgb(253, 205, 213);
+    background-color: rgba(255, 216, 120, .6);
 }
 
 #cafe-location h2 {
@@ -341,7 +341,7 @@ main {
 }
 
 #cafe-address {
-    line-height: 20px;
+    line-height: 30px;
     padding: 0 20px;
     margin-bottom: 20px;
     font-size: 22px;
@@ -356,7 +356,7 @@ main {
 /* Book of the Month Section */
 .book-of-the-month {
     margin: 30px 20px 20px 20px;
-    background-color: rgba(255, 214, 96, 0.5);
+    background-color: rgba(255, 173, 195, .7);
 }
 
 .book-of-the-month h1 {
@@ -424,7 +424,7 @@ main {
 .review-1 {
     width: 90%;
     margin: 20px auto;
-    background-color: rgba(255, 118, 190, 0.5);
+    background-color: rgba(255, 188, 154, .6);
 }
 
 .review-1 h2 {
@@ -470,7 +470,7 @@ main {
 .review-2 {
     width: 90%;
     margin: 20px auto;
-    background-color: rgba(255, 141, 146, 0.5);
+    background-color: rgba(255, 216, 120, .6);
 }
 
 .review-2 h2 {
@@ -518,7 +518,7 @@ main {
 .review-3 {
     width: 90%;
     margin: 20px auto;
-    background-color: rgba(255, 177, 111, 0.5);
+    background-color: rgba(249, 248, 113, .6);
 }
 
 .review-3 h2 {
@@ -771,36 +771,22 @@ main {
         margin-bottom: 60;
     }
 
-        .book-of-the-month {
-            display: flex;
-            flex-direction: row;
-        }
+    .book-of-the-month {
+        display: flex;
+        flex-direction: row;
+    }
     
-        .book-of-the-month>div {
-            flex: 1;
-        }
+    .book-of-the-month>div {
+        flex: 1;
+    }
     
-        .book-of-the-month-image {
-            order: 0;
-        }
+    .book-of-the-month-image {
+        order: 0;
+    }
     
-        .book-of-the-month-text {
-            order: 1;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .book-of-the-month-text {
+        order: 1;
+    }
 
     .review-1 {
         width: 80%;
