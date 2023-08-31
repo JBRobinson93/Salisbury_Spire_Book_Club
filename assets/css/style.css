@@ -156,7 +156,7 @@ main {
 }
 
 #about-us-bg {
-    background: url(../images/tea-book-and-cakes.jpg) no-repeat top center / cover;
+    background: no-repeat top center/center;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -266,7 +266,7 @@ main {
 }
 
 #cafe-bg {
-    background: url(../images/cafe-and-books.jpg) no-repeat top center / cover;
+    background: no-repeat top center;
     height: 70vw;
     width: 70vw;
     margin-bottom: 20px;
@@ -407,7 +407,7 @@ main {
 }
 
 .book-of-the-month-bg {
-    background: url(../images/the-constant-rabbit-book-cover.jpg) no-repeat top center / cover;
+    background: no-repeat top center / cover;
     height: 45vh;
     width: 40vh;
     max-height: 400px;
@@ -451,11 +451,10 @@ main {
 }
 
 .review-1-bg {
-    background: url(../images/review-1-woman.jpg) no-repeat top center / cover;
+    background: no-repeat top center / cover;
     height: 60vw;
     width: 60vw;
     margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
     max-height: 300px;
@@ -499,11 +498,9 @@ main {
 }
 
 .review-2-bg {
-    background: url(../images/two-smiling-friends.jpg) no-repeat top center / cover;
     height: 60vw;
     width: 60vw;
     margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
     max-height: 300px;
@@ -547,11 +544,10 @@ main {
 }
 
 .review-3-bg {
-    background: url(../images/older-lady-enjoying-sun.jpg) no-repeat top center / cover;
+    background: no-repeat top center;
     height: 60vw;
     width: 60vw;
     margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 100%;
     max-width: 300px;
     max-height: 300px;
@@ -649,7 +645,7 @@ main {
     }
 
     #about-us-image > div {
-        text-align: end;
+        text-align: center;
         align-self: flex-end;
     }
 
