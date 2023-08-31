@@ -251,6 +251,7 @@ main {
     font-size: 120%;
     margin-bottom: 20px;
     text-align: center;
+    line-height: 30px;
 }
 
 #spire-cafe hr {
@@ -296,6 +297,7 @@ main {
     font-size: 100%;
     margin-bottom: 10px;
     text-align: center;
+    line-height: 30px;
 }
 
 #newsletter h3 {
@@ -768,6 +770,23 @@ main {
     #book-of-the-month-image  {
         margin-bottom: 60;
     }
+
+        .book-of-the-month {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .book-of-the-month>div {
+            flex: 1;
+        }
+    
+        .book-of-the-month-image {
+            order: 0;
+        }
+    
+        .book-of-the-month-text {
+            order: 1;
+        }
 
 
 
