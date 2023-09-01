@@ -105,18 +105,21 @@ Spire Book Club is a website that informs current and new members of information
   - No errors where found when checking index.html, spirecafe.html or bookmonth.html in the official [W3c Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjbrobinson93.github.io%2FSalisbury_Spire_Book_Club%2Findex.html)
 
 - CSS
-  - No errors where found when checking style.css in the official [(Jigsaw) Validator]()
+  - No errors where found when checking style.css in the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjbrobinson93.github.io%2FSalisbury_Spire_Book_Club%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Deployment
 
-This should describe in steps how it was deployed
+- This page was deployed on GitHub pages. these are the steps I took to do shis:
+   - In the GitHub repository, click on the settings tab
+   - In the column on the left select pages within the section - 'Code and Automation'
+   - The source should be 'Deploy From Branch'
+   - In the branch selection drop-down select 'main'
+   - The folder should be /(root)
+   - Click save
+   - Return to repository and wait a moment before re-loading the page
+   - Return to settings and click on pages again
+   - You should now have a Visit Site box nect to the live address of your site
 
-- This page was deployed on Git Hub pages
-- -I clicked on this and that
-- -I clicked to make it live
-- -I was presented with a link to the live sire
-
-  This is the link to the live site (Link)
 
 ## Credits
 
