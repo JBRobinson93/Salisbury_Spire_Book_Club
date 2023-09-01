@@ -2,6 +2,8 @@
 
 Spire Book Club is a website that informs current and new members of information about the club. It is trageted towards all levels of reading ability and serves as a social get together. The site will giva all the relevant information for the club, the meetup address and the cafe opening times. It will also give all visitors an idea of the books that have been chosen and hot to get further information.
 
+![Responsive-Landing-Page](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/c4e0b7bf-0809-4e49-881c-ef5097885fb9)
+
 ## Features
 
 ### Existing Features
