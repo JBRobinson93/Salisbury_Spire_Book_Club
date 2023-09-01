@@ -123,35 +123,23 @@ Spire Book Club is a website that informs current and new members of information
 
 ## Credits
 
-Love Running - Header, Footer, Hero image and text.
 
-## Content
+### Content
 
-The salisbury history text was taken from wikipedia
+- I used the Love Running project from code Institutes course to assist me with - Header, Footer, Hero image and text.
+- The salisbury history text was taken from [wikipedia](https://en.wikipedia.org/wiki/Salisbury_Cathedral) and from [Evan Evans Tours](https://evanevanstours.com/blog/visiting-salisbury-cathedral/)
+- The maps indended location is from [Google-Maps](https://www.google.com/maps?ll=51.064987,-1.797303&z=15&t=m&hl=en&gl=GB&mapclient=embed&cid=14380366614161135822)
 
-## Media
+### Media
 
-These are the images and where I took them from;
-the constant rabbit - (Link
-the coffee shop - (Link)
-
-Favicon
-<a target="_blank" href="https://icons8.com/icon/42763/book">Book</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-Photo by Ylanite Koppens: <https://www.pexels.com/photo/floral-ceramic-cup-and-saucer-above-open-book-1693626/>
-
-Photo by Skitterphoto: <https://www.pexels.com/photo/ancient-antique-architectural-design-architecture-442420/>
-
-Photo by Israel Torres: <https://www.pexels.com/photo/portrait-of-two-men-in-eyeglasses-posing-on-a-street-17898854/>
-
-Photo by Susanna Marsiglia: <https://www.pexels.com/photo/smiling-elderly-woman-in-dress-17849329/>
-
-<https://www.amazon.co.uk/Constant-Rabbit-standalone-Number-bestselling/dp/1444763628>
-
-<https://www.wob.com/en-gb/books/jasper-fforde/constant-rabbit/9781444763621>https://www.youtube.com/watch?v=PzdCMAogwuc
-
-<https://www.youtube.com/watch?v=PzdCMAogwuc>
-
-<https://evanevanstours.com/blog/visiting-salisbury-cathedral/>
-
-<https://en.wikipedia.org/wiki/Salisbury_Cathedral>
+- The Favicon was used from [icons8](https://icons8.com/icon/42763/book)
+- The Video used in the History of Salisbury Section was used from [Youtube - Channel: Adam's Drone](https://www.youtube.com/watch?v=PzdCMAogwuc)
+- The images I used and their links are as follows:
+  - The hero image is from [Depositphotos - Photo by Alexey Fedoren](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=0&filters%5Bcontent_type%3Atemplate%5D=0&filters%5Bcontent_type%3A3d%5D=0&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bcontent_type%3Aimage%5D=1&k=wiltshire+salisbury&order=relevance&safe_search=1&price%5B%24%5D=1&search_type=asset-type-change&search_page=1&get_facets=0&asset_id=265552502)
+  - The who are we image is from [Pexels - Photo by Ylanite Koppens](<https://www.pexels.com/photo/floral-ceramic-cup-and-saucer-above-open-book-1693626/>)
+  - The book of the month banner image is from [Pexels - Photo by Kristina Paukshtite](https://www.pexels.com/photo/pink-flowers-139911/)
+  - The cafe opening times image is from [Pexels - Photo by Haley Black](https://www.pexels.com/photo/brown-wooden-table-and-chairs-3968061/)
+   - The constant rabbit book cover image is from [WOB](https://www.wob.com/en-gb/books/jasper-fforde/constant-rabbit/9781444763621)
+   - The image of the first reviewer is from [Pexels - Photo by Andrea Piacquadio](https://www.pexels.com/photo/woman-in-collared-shirt-774909/)
+  - The image of the second reviewer is from [Pexels - Photo by Israel Torres](https://www.pexels.com/photo/portrait-of-two-men-in-eyeglasses-posing-on-a-street-17898854)
+   - The image of the third reviewer is from [Pexels - Photo by Susanna Marsiglia](https://www.pexels.com/photo/smiling-elderly-woman-in-dress-17849329/) 
