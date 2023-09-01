@@ -159,7 +159,6 @@ main {
 }
 
 #about-us-bg {
-    background: no-repeat top center/center;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -771,10 +770,6 @@ main {
     }
 
     /* Book Review Section */
-    #book-of-the-month-image {
-        margin-bottom: 60;
-    }
-
     .book-of-the-month {
         display: flex;
         flex-direction: row;

@@ -15,14 +15,12 @@ Spire Book Club is a website that informs current and new members of information
 
 ![Nav-Bar-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/060a61c3-4b83-4627-bcd0-3ee84423a2d4)
 
-
 - _The landing Page image and text_
 
   - The landing page is a bright and inviting opening to the site and allows the user to immedietly recognise the reason for the website. It shows a large hero image and text describing what the page is for.
   - This is the first introdustion to the user and it shows the this is a book club website and invites them to explore within with eye cathing imagery.
- 
-![Hero-Image-And-text-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/193d6a89-2418-47a5-bfc0-190933e3b388)
 
+![Hero-Image-And-text-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/193d6a89-2418-47a5-bfc0-190933e3b388)
 
 - _Who Are We Section_
 
@@ -31,14 +29,12 @@ Spire Book Club is a website that informs current and new members of information
 
 ![Who-Are-We-Section-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/526d5f24-d24d-42b8-a739-0eb6a31df69e)
 
-
 - _The History of Salisbury Cathedral Section_
 
   - this section has a imbedded dideo of salisbury cqathedral and there is text describing the ihistory of Salisbury Cathedral.
   - This gives an exciting visual experience of the location of the club and describes aome interesting facts about the area to grow the interest of new members.
 
 ![the-History-Of-Salisbury-Cathedral-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/e6712e6a-32b1-4588-8780-24a8319daa51)
-
 
 - _Book of The Month Banner_
 
@@ -47,14 +43,12 @@ Spire Book Club is a website that informs current and new members of information
 
 ![Book-Of-the-Month-Banner-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/3b438be3-a7e1-41c9-b92c-e8d9994b6b28)
 
-
 - _Footer_
 
   - The footer has three social media and one email link icons on all pages. These stay at the bottom of the screen and all links open in a seperate tab.
   - This allows the user to connect with our club through our social media accounts whilst no losing their place on our site. This removes the need to navigate thier way back to us with the 'back' button.
 
 ![Footer-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/ff7c6b4e-546e-42eb-ae34-883db552a9a3)
-
 
 - _Cafe Opening times_
 
@@ -63,7 +57,6 @@ Spire Book Club is a website that informs current and new members of information
 
 ![Cafe-Opening-Times-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/58de18a9-1cda-4bba-b9ad-6e238ef1cef2)
 
- 
 - _Newsletter Section_
 
   - this section consists of a from and a description of why the user would want to sign up to the newsletter.
@@ -71,7 +64,6 @@ Spire Book Club is a website that informs current and new members of information
 
 ![Newsletter-Signup-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/9316924f-a9ce-40b3-b89f-643290d84b70)
 
- 
 - _Cafe Address_
 
   - This section includes the address for the cafe and a note to explain the accessability at the location. It also includes an embedded google maps section that is interactive and will open in a nex tabif clicked on.
@@ -79,7 +71,6 @@ Spire Book Club is a website that informs current and new members of information
 
 ![Cafe-Address-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/89d687f4-15da-4c88-b79d-4bc3960de3fa)
 
- 
 - _Book of The Month_
 
   - This page includes a section with the current book of the month, author, title, image and blurb. It also includes three reviews with accompanying images of the person who wrote the review.
@@ -89,7 +80,6 @@ Spire Book Club is a website that informs current and new members of information
 ![Review-One-And-Two-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/1ba0db2a-55b4-4553-8c3e-9e0b6c7be99c)
 ![Review-three-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/f2fffda8-8286-4e08-aa98-1b036cc36dbe)
 
- 
 ### Additional Features For Future Development
 
 - _Additional form_
@@ -99,7 +89,6 @@ Spire Book Club is a website that informs current and new members of information
 - _Interactive Reviews_
 
   - I would like to have a scrollable review page that allows users to input their review through the page. This wouold include their name and a start rating of the book of the month and their review. This would be visable to all users of the site and would showcase the members of the club and encourage new members to get involved.
-  
 
 ## Testing
 
@@ -109,17 +98,14 @@ Spire Book Club is a website that informs current and new members of information
 - I have checked that all of the nav-bar links work and take the user to the correct page
 - I have checked and can oonfirm that the form inputs are required where necessary and that an official email is needed to send the form
 
-
 ## Validation
 
 - HTML
-  -No errors where found when checking index.html, spirecafe.html or bookmonth.html [W3c Validator](link)
-   -
 
+  - No errors where found when checking index.html, spirecafe.html or bookmonth.html in the official [W3c Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjbrobinson93.github.io%2FSalisbury_Spire_Book_Club%2Findex.html)
 
-  
 - CSS
-  -No errors where found .... .. .. .. .. .. [(Jigsaw) Validator](link)
+  - No errors where found when checking style.css in the official [(Jigsaw) Validator]()
 
 ## Deployment
 
@@ -146,51 +132,22 @@ These are the images and where I took them from;
 the constant rabbit - (Link
 the coffee shop - (Link)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Favicon
 <a target="_blank" href="https://icons8.com/icon/42763/book">Book</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
 
 Photo by Ylanite Koppens: <https://www.pexels.com/photo/floral-ceramic-cup-and-saucer-above-open-book-1693626/>
 
 Photo by Skitterphoto: <https://www.pexels.com/photo/ancient-antique-architectural-design-architecture-442420/>
 
-
-
 Photo by Israel Torres: <https://www.pexels.com/photo/portrait-of-two-men-in-eyeglasses-posing-on-a-street-17898854/>
 
 Photo by Susanna Marsiglia: <https://www.pexels.com/photo/smiling-elderly-woman-in-dress-17849329/>
 
-
 <https://www.amazon.co.uk/Constant-Rabbit-standalone-Number-bestselling/dp/1444763628>
-
-
 
 <https://www.wob.com/en-gb/books/jasper-fforde/constant-rabbit/9781444763621>https://www.youtube.com/watch?v=PzdCMAogwuc
 
 <https://www.youtube.com/watch?v=PzdCMAogwuc>
-
 
 <https://evanevanstours.com/blog/visiting-salisbury-cathedral/>
 
