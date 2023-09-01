@@ -1,112 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salisbury Spire Book Club</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/book-favicon.png"/>
+    <link
+      rel="shotcut icon"
+      type="image/png"
+      href="assets/images/book-favicon.png"
+    />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<!-- Body -->
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <!-- Body -->
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Spire Book Club</h1>
-        </a>
-        <input type="checkbox" id="nav-select" name="nav-select">
-        <label for="nav-select" class="nav-select-label"><i class="fa-solid fa-book"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="spirecafe.html" class="active">Spire Cafe</a></li>
-                <li><a href="bookmonth.html">Book Of The Month</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Spire Book Club</h1>
+      </a>
+      <input type="checkbox" id="nav-select" name="nav-select" />
+      <label for="nav-select" class="nav-select-label"
+        ><i class="fa-solid fa-book"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="spirecafe.html" class="active">Spire Cafe</a></li>
+          <li><a href="bookmonth.html">Book Of The Month</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- Main Content -->
     <main>
-        <!-- Contact Details And Form Section -->
-        <section id="contact-us">
-            <section id="spire-cafe">
-                <div id="spire-cafe-times">
-                    <h2>Cafe Opening Times:</h2>
-                    <hr>
-                    <ul>
-                        <li>Monday: 10am-6pm</li>
-                        <li>Tuesday: 10am-6pm</li>
-                        <li>Wednesday: 10am-6pm</li>
-                        <li>Thursday: 10am-6pm</li>
-                        <li>Friday: 10am-5pm</li>
-                        <li>Saturday: 9am-5pm</li>
-                        <li>Sunday: 10am-6pm</li>
-                        <li>Bank Holidays: Check out our <a href="https://facebook.com/" target="_blank" rel="no-opener"
-                        aria-label="Visit Our Facebook Page (Opens in a new tab)">Facebook</a> page <br> for updated opening times</li>
-                    </ul>
-                </div>
-                <div id="cafe-image">
-                    <div>
-                        <img id="cafe-bg" src="assets/images/cafe-and-books.jpg" alt="Cafe with seating and book case behind">
-                    </div>
-                </div>
-            </section>
-            <!-- Newsletter Section -->
-            <section id="newsletter">
-                <div id="newsletter-info">
-                    <h2>Sign Up To Our Newsletter</h2>
-                    <hr>
-                    <h3>when you Sign Up you will recieve the latest updates about meeting times and dates. <br>You will also be informed of any charity events that are upcoming. <br><br>So sign up now!</h3></div>
-                <!-- Newsletter Form -->
-                <div id="newsletter-form">
-                    <form  action="https://formdump.codeinstitute.net/" rel="no-opener"
-                        aria-label="Opens page where form is sent (Opens in a new tab)" re method="post">
-                        <label for="full-name">Full Name:</label><br>
-                        <input id="full-name" type="text" required placeholder="John Smith"><br>
-                        <label for="email">Email:</label><br>
-                        <input id="email" type="email" placeholder="jsmith@gmail.com" required><br>
-                        <label for="contact-number">Phone Number:</label><br>
-                        <input id="contact-number" type="text" placeholder="Optional"><br>
-                        <input type="submit">
-                    </form>
-                </div>
-            </section>
-            <section id="cafe-location">
-                <div id="cafe-address">
-                    <h2>Cafe Address</h2>
-                    <hr>
-                    <p>42 CATHEDRAL<br>SALISBURY<br>SP1 2EZ<br>WILTSHIRE<br><br>ASSISTED ACCESS IS PROVIDED WITH RAMPS AND AUTOMATIC DOORS</p>
-                </div>
-                <div id="maps-image">
-                    <div id="cafe-maps">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.3553283579377!2d-1.7998784230312692!3d51.06499044292585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873ebf226b4f265%3A0xc791533ec0f618ce!2sSalisbury%20Cathedral!5e0!3m2!1sen!2suk!4v1692627763004!5m2!1sen!2suk" width="100%" title="Interactive Google Maps directions to Spire Cafe">
-                            Find Us On google Maps
-                        </iframe>
-                    </div>
-                </div>
-            </section>
+      <!-- Contact Details And Form Section -->
+      <section id="contact-us">
+        <h2 class="hidden-heading">Cafe Opening Times</h2>
+        <section id="spire-cafe">
+          <div id="spire-cafe-times">
+            <h2>Cafe Opening Times:</h2>
+            <hr />
+            <ul>
+              <li>Monday: 10am-6pm</li>
+              <li>Tuesday: 10am-6pm</li>
+              <li>Wednesday: 10am-6pm</li>
+              <li>Thursday: 10am-6pm</li>
+              <li>Friday: 10am-5pm</li>
+              <li>Saturday: 9am-5pm</li>
+              <li>Sunday: 10am-6pm</li>
+              <li>
+                Bank Holidays: Check out our
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="no-opener"
+                  aria-label="Visit Our Facebook Page (Opens in a new tab)"
+                  >Facebook</a
+                >
+                page <br />
+                for updated opening times
+              </li>
+            </ul>
+          </div>
+          <div id="cafe-image">
+            <div>
+              <img
+                id="cafe-bg"
+                src="assets/images/cafe-and-books.jpg"
+                alt="Cafe with seating and book case behind"
+              />
+            </div>
+          </div>
         </section>
+        <!-- Newsletter Section -->
+        <section id="newsletter">
+          <div id="newsletter-info">
+            <h2>Sign Up To Our Newsletter</h2>
+            <hr />
+            <h3>
+              when you Sign Up you will recieve the latest updates about meeting
+              times and dates. <br />You will also be informed of any charity
+              events that are upcoming. <br /><br />So sign up now!
+            </h3>
+          </div>
+          <!-- Newsletter Form -->
+          <div id="newsletter-form">
+            <form
+              action="https://formdump.codeinstitute.net/"
+              rel="no-opener"
+              aria-label="Opens page where form is sent (Opens in a new tab)"
+              method="post"
+            >
+              <label for="full-name">Full Name:</label><br />
+              <input
+                id="full-name"
+                type="text"
+                required
+                placeholder="John Smith"
+              /><br />
+              <label for="email">Email:</label><br />
+              <input
+                id="email"
+                type="email"
+                placeholder="jsmith@gmail.com"
+                required
+              /><br />
+              <label for="contact-number">Phone Number:</label><br />
+              <input
+                id="contact-number"
+                type="text"
+                placeholder="Optional"
+              /><br />
+              <input type="submit" />
+            </form>
+          </div>
+        </section>
+        <section id="cafe-location">
+          <div id="cafe-address">
+            <h2>Cafe Address</h2>
+            <hr />
+            <p>
+              42 CATHEDRAL<br />SALISBURY<br />SP1 2EZ<br />WILTSHIRE<br /><br />ASSISTED
+              ACCESS IS PROVIDED WITH RAMPS AND AUTOMATIC DOORS
+            </p>
+          </div>
+          <div id="maps-image">
+            <div id="cafe-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.3553283579377!2d-1.7998784230312692!3d51.06499044292585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873ebf226b4f265%3A0xc791533ec0f618ce!2sSalisbury%20Cathedral!5e0!3m2!1sen!2suk!4v1692627763004!5m2!1sen!2suk"
+                title="Interactive Google Maps directions to Spire Cafe"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
     <!-- Footer -->
     <footer>
-        <ul id="contact-links">
-            <li><a href="https://facebook.com/" target="_blank" rel="no-opener"
-                    aria-label="Visit Our Facebook Page (Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li><a href="https://instagram.com/" target="_blank" rel="no-opener"
-                    aria-label="Visit Our Instagram Page (Opens in a new tab)"><i
-                        class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="https://twitter.com/" target="_blank" rel="no-opener"
-                    aria-label="Visit Our twitter Page (Opens in a new tab)"><i
-                        class="fa-brands fa-square-twitter"></i></a></li>
-            <li><a href="https://outlook.com/" target="_blank" rel="no-opener"
-                    aria-label="Contact Us Via Email (Opens in a new tab)"><i class="fa-solid fa-envelope"></i></a></li>
-        </ul>
+      <ul id="contact-links">
+        <li>
+          <a
+            href="https://facebook.com/"
+            target="_blank"
+            rel="no-opener"
+            aria-label="Visit Our Facebook Page (Opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            rel="no-opener"
+            aria-label="Visit Our Instagram Page (Opens in a new tab)"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="no-opener"
+            aria-label="Visit Our twitter Page (Opens in a new tab)"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://outlook.com/"
+            target="_blank"
+            rel="no-opener"
+            aria-label="Contact Us Via Email (Opens in a new tab)"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
     <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/d9f2171271.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/d9f2171271.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
