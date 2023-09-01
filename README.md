@@ -99,33 +99,22 @@ Spire Book Club is a website that informs current and new members of information
 - _Interactive Reviews_
 
   - I would like to have a scrollable review page that allows users to input their review through the page. This wouold include their name and a start rating of the book of the month and their review. This would be visable to all users of the site and would showcase the members of the club and encourage new members to get involved.
-
-
-
-
-
-
-
-
-
+  
 
 ## Testing
 
-
-
-different browser screens
-all links in new tabs
-internal links work
-nav bar links work
-the form requires validation correctly
+- I have test the responsive ness of my site through Goolge Dev-Tools. I have used both the pre-set device cizes and the manual drag option to acess the adaptability and I am happy that the site is able to funstion on all device sizes.
+- I have checked that all internal links tork and navigate the user to the corect page
+- I have checked that all external links work and that they open in a ne tab
+- I have checked that all of the nav-bar links work and take the user to the correct page
+- I have checked and can oonfirm that the form inputs are required where necessary and that an official email is needed to send the form
 
 
 ## Validation
 
 - HTML
-  -No errors where found .... .. .. .. .. .. [W3c Validator](link)
-![Validator W3-Index html-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/5ff6d9c9-e10b-4694-bb8a-9378d0de45f7)
-![Validator W3-spirecafe html-Screenshot](https://github.com/JBRobinson93/Salisbury_Spire_Book_Club/assets/138578310/15c6e687-795f-4669-a9d1-0f1a8ca7dbf7)
+  -No errors where found when checking index.html, spirecafe.html or bookmonth.html [W3c Validator](link)
+   -
 
 
   
