@@ -421,6 +421,8 @@ main {
     justify-content: center;
 }
 
+/* Review Section */
+
 .review-1 {
     width: 90%;
     margin: 20px auto;
@@ -592,7 +594,6 @@ main {
 
 /* Media Query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -723,7 +724,6 @@ main {
     }
 
     /* Spire Cafe Opening Times Responsive styles */
-
     #spire-cafe {
         display: flex;
         flex-direction: row;
@@ -853,7 +853,6 @@ main {
     .review-3-text>h2 {
         font-size: 200%;
     }
-
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
